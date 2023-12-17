@@ -1,0 +1,34 @@
+.homework1 {
+    background-color: plum;
+    margin: 100px auto;
+    display: flex;
+    width: 400px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.button_exercise1{
+    background-color: plum;
+    width: 225px;
+    height: 70px;
+    border: none;
+    border-radius: 10px;
+    text-shadow: 3px 3px 3px black;
+    box-shadow: 2px 2px 3px white inset, 4px 4px 4px black;
+    color: white;
+    ;
+}
+
+.button_exercise1:active{
+      box-shadow: 3px 3px 3px black inset, -3px -3px 3px white inset;
+    text-shadow: 1px 1px 3px black; 
+}
+
+
+
+
+
+/* exercise2 */
