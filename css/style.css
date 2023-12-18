@@ -1,6 +1,6 @@
 .homework1 {
     background-color: plum;
-    margin: 100px auto;
+    margin: 100px 50px;
     display: flex;
     width: 400px;
     height: 200px;
@@ -31,4 +31,37 @@
 
 
 
-/* exercise2 */
+/* exercise3 */
+
+.homework3{
+    margin: 100px 50px;
+}
+
+
+h2{
+    color: red;
+    font-size: 140px;
+    letter-spacing: 20px;
+    animation-name: HideandShowH2;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    content-visibility: hidden;
+
+}
+
+ @keyframes  HideandShowH2 {
+    0% {
+    content-visibility: hidden;
+     color: rgb(0 0 0 / 0);
+    
+  }
+
+  100% {
+    content-visibility: visible;
+    color: red;
+}
+
+} 
+
+
